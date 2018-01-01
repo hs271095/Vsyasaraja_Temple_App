@@ -36,8 +36,8 @@ public class UserPage extends AppCompatActivity {
         lv=(ListView)findViewById(R.id.listView);
         List<Map<String, String>> data = new ArrayList<Map<String, String>>();
         Map<String, String> datum = new HashMap<String, String>(2);
-        datum.put("user","test1@gmail.com" );
-        datum.put("age", "Age:25");
+        datum.put("user"," Fried Maggi" );
+        datum.put("age", " Rs.30");
         data.add(datum);
         SimpleAdapter adapter = new SimpleAdapter(this, data,
                 android.R.layout.simple_list_item_2, new String[] {"user", "age"},new int[] {android.R.id.text1,

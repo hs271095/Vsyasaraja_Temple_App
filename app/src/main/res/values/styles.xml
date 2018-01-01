@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
@@ -12,6 +12,8 @@
 
 
     </style>
-
+    <style name="MyDatePicker" parent="@android:style/Widget.Material.Light.DatePicker" tools:targetApi="lollipop">
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+    </style>
 
 </resources>

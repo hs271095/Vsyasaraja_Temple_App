@@ -21,7 +21,7 @@ public class RegisterPage extends AppCompatActivity {
         reg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent go= new Intent(RegisterPage.this,HomePage.class);
+                Intent go= new Intent(RegisterPage.this,LoginPage.class);
                 startActivity(go);
             }
         });
